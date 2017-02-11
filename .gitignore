@@ -1,0 +1,30 @@
+#================================================
+#Gulp file
+#----------------
+#gulp*.js
+
+#Developement Directories
+#-------------------------------
+#css/
+#js/
+#build/
+
+#NPM
+#----------
+#package.json
+#node_modules/
+
+#Editor Configs
+#--------------
+#*.editorconfig
+
+#================================================
+
+
+# Always Show Assets directory and subdirectories
+!assets/css/
+!assets/js/
+
+#Remove backup index files
+index-*.html
+.gitignore-*

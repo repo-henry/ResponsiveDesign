@@ -1,0 +1,599 @@
+/*  To look good on a majority of phones
+the website should look good at a width of 350 px. */
+
+.wrapper {
+    max-width: 1200px;
+    min-width: 350px;
+    margin: 0 auto;
+}
+
+#msg {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.container-fluid, .container {
+    border-radius: 5px;
+    background-color: #e6eeff;
+    border: 1px solid #6696ff;
+}
+
+.row {
+    background-color: #eff5f5;
+    border: 1px solid #a1c4c4;
+    border-radius: 5px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+
+/*  xs < 768  */
+/*  if the media type is screen AND
+    the view port is 768px or less then use these settings */
+@media screen and (min-width: 1px) {
+    /*  red 80%   */
+    /*  if the view port is less than 768px use this color   */
+    .content {
+        background-color: #ffcccc;
+        color: #000;
+        border: 2px solid #000;
+        border-radius: 5px;
+    }
+    /*  blue 80%   */
+    /*  if the view port is less than 768px use this color   */
+    .sidebar {
+        background-color: #9999ff;
+        color: #000;
+        border: 2px solid #000;
+        border-radius: 5px;
+    }
+    /*  green 80%   */
+    /*  if the view port is less than 768px use this color   */
+    .thumb {
+        background-color: #99ff99;
+        color: #000;
+        border: 2px solid #000;
+        border-radius: 5px;
+    }
+    /*  purple 80%   */
+    /*  if the view port is less than 768px use this color   */
+    .panel {
+        background-color: #cc99ff;
+        /* 80% */
+        color: #000;
+        border-radius: 5px;
+        margin-top: 4px;
+    }
+    .panel-heading {
+        text-align: center;
+        font-size: 1em;
+    }
+    /* color matching panel borders for sizes xs and sm */
+    /* Hobbit panel */
+    #r2>div:nth-child(2)>div.panel-primary {
+        border: 3px solid #336699;
+        /* 40% of panel-heading background */
+    }
+    /* Elf panel */
+    #r2>div:nth-child(3)>div.panel-danger {
+        border: 3px solid #a44141;
+        /* 45% of panel-heading background */
+    }
+    /* Wizard panel */
+    #r2>div:nth-child(4)>div.panel-warning {
+        border: 3px solid #e7c418;
+        /* 50% of panel-heading background */
+    }
+    /* Dwarf panel */
+    #r2>div:nth-child(5)>div.panel-success {
+        border: 3px solid #5da540;
+        /* 45% of panel-heading background */
+    }
+    /* color matching accordian borders for sizes xs and sm */
+    #accordian>div.panel.panel-primary {
+        border: 3px solid #336699;
+        /* 40% of panel-heading background */
+    }
+    #accordian>div.panel.panel-danger {
+        border: 3px solid #a44141;
+        /* 45% of panel-heading background */
+    }
+    #accordian>div.panel.panel-warning {
+        border: 3px solid #e7c418;
+        /* 50% of panel-heading background */
+    }
+    #accordian>div.panel.panel-success {
+        border: 3px solid #5da540;
+        /* 45% of panel-heading background */
+    }
+    /*  Content Container
+    Move content container below menu.
+    select the 2nd div element of it's parent.
+    move it below the menu. This needs to be applied
+    to small, medium, and large media breaks  */
+    #container2 {
+        margin-top: 53px;
+    }
+    #carousel {
+        margin-top: 53px;
+    }
+    /* Inbox Button in Nav Menu */
+    #collapsable-menu button:nth-child(2) {
+        margin-right: 3px;
+        margin-top: 8px;
+        float: right;
+        /* color: #d9534f; danger red */
+        color: #777;
+        padding-top: 7px;
+    }
+    #collapsable-menu button:nth-child(2) span {
+        color: #fff;
+        text-shadow: none;
+        margin: 4px;
+        border-radius: 5px;
+    }
+    /* Notifications Button in Nav Menu */
+    #collapsable-menu button:nth-child(3) {
+        margin-right: 3px;
+        margin-top: 8px;
+        /* color: #d9534f;  danger red */
+        color: #777;
+        float: right;
+        border-radius: 5px;
+        padding-top: 7px;
+    }
+    #collapsable-menu button:nth-child(3) span {
+        background-color: #d9534f;
+    }
+    .clear {
+        clear: both;
+    }
+    /* Center Brand */
+    .navbar-header {
+        position: relative;
+    }
+    .navbar-header button {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #brand {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    #c1 {
+        width: 100%;
+        height: 100%;
+    }
+    #c2 {
+        width: 100%;
+        height: 100%;
+    }
+    #c3 {
+        width: 100%;
+        height: 100%;
+    }
+    #c4 {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Top Navigation Padding */
+    div.container.clear {
+      padding-top: 5px;  /* xs */
+      padding-bottom: 5px; /* xs */
+    }
+
+    /* push the carousel below main web site navigation */
+    .wrapper {
+      margin-top: 65px; /* xs */
+    }
+
+}  /*  end xs < 768  */
+
+
+/*  sm >= 768  */
+/*  if the media type is screen AND
+    the view port is 768px and wider */
+@media screen and (min-width: 768px) {
+    /*  red (content) 40%   */
+    .content {
+        background-color: #c00;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    /*  blue (sidebar) 40%   */
+    .sidebar {
+        background-color: #0000cc;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    /*  green (thumb) 40%   */
+    .thumb {
+        background-color: #00cc00;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    /*  purple (panel) 40%   */
+    .panel {
+        background-color: #6600cc;
+        color: #fff;
+        border: 2px solid #fff;
+        /* 10% */
+        border-radius: 5px;
+    }
+    /*  Target content container
+    select the 2nd div element of it's parent.
+    move it below the menu. This needs to be applied
+    to small, medium, and large media breaks*/
+    #container2 {
+        margin-top: 53px;
+    }
+    /* Register Button in Nav Menu */
+    #collapsable-menu button:nth-child(2) {
+        margin-right: 2px;
+        margin-left: 10px;
+        margin-top: 8px;
+        color: #777;
+    }
+    /* Login Button */
+    #collapsable-menu button:nth-child(3) {
+        color: #777;
+    }
+    #brand, .navbar-header {
+        Position: static;
+    }
+    #brand {
+        width: 225px;
+        display: block;
+        text-align: left;
+    }
+
+    /* Top Navigation Padding */
+  div.container.clear {
+    padding-top: 6px;  /* sm */
+    padding-bottom: 6px;  /* sm */
+  }
+
+  /* push the carousel below main web site navigation */
+  .wrapper {
+    margin-top: 68px; /* sm */
+  }
+
+}  /* end sm >= 768  */
+
+
+/*  md >= 992  */
+/*  if the media type is screen AND
+the view port is 992px and wider */
+@media screen and (min-width: 992px) {
+    /*  red (content) 30%   */
+    .content {
+        background-color: #990000;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    /*  blue (sidebar) 30%   */
+    .sidebar {
+        background-color: #000099;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    /*  green (thumb) 30%   */
+    .thumb {
+        background-color: #009900;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    /*  purple (panel) 30%   */
+    .panel {
+        background-color: #4d0099;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    /*  Target content container
+    select the 2nd div element of it's parent.
+    move it below the menu. This needs to be applied
+    to small, medium, and large media breaks*/
+    #container2 {
+        margin-top: 53px;
+    }
+    /* white panel borders for med and large sizes */
+    /* Hobbit panel */
+    #r2>div:nth-child(2)>div.panel-primary {
+        border: 2px solid #fff;
+    }
+    /* Elf panel */
+    #r2>div:nth-child(3)>div.panel-danger {
+        border: 2px solid #fff;
+    }
+    /* Wizard panel */
+    #r2>div:nth-child(4)>div.panel-warning {
+        border: 2px solid #fff;
+    }
+    /* Dwarf panel */
+    #r2>div:nth-child(5)>div.panel-success {
+        border: 2px solid #fff;
+    }
+    /* color matching accordian borders for sizes xs and sm */
+    #accordian>div.panel.panel-primary {
+        border: 2px solid #fff;
+    }
+    #accordian>div.panel.panel-danger {
+        border: 2px solid #fff;
+    }
+    #accordian>div.panel.panel-warning {
+        border: 2px solid #fff;
+    }
+    #accordian>div.panel.panel-success {
+        border: 2px solid #fff;
+    }
+
+    /* Top Navigation Padding */
+  div.container.clear {
+    padding-top: 6px;    /* md */
+    padding-bottom: 6px; /* md */
+  }
+
+  /* push the carousel below main web site navigation */
+  .wrapper {
+    margin-top: 68px; /* md */
+  }
+
+}  /* end md >= 992  */
+
+
+/*  lg >= 1200  */
+/*  if the media type is screen AND
+the view port is 1200px and wider */
+@media screen and (min-width: 1200px) {
+    /*  red (content) 20%   */
+    .content {
+        background-color: #660000;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    /*  blue (sidebar) 20%   */
+    .sidebar {
+        background-color: #000066;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    /*  green (thumb) 20%   */
+    .thumb {
+        background-color: #006600;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    /*  purple (panel) 20%   */
+    .panel {
+        background-color: #330066;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    /*  Target content container
+    select the 2nd div element of it's parent.
+    move it below the menu. This needs to be applied
+    to small, medium, and large media breaks*/
+    #container2 {
+        margin-top: 53px;
+    }
+    .thumb-spacing {
+        padding: 10px 10px;
+        text-align: center;
+        border: 1px solid #006600;
+        height: 60px;
+    }
+    .content-spacing {
+        padding: 0;
+        margin: 0;
+    }
+    .sidebar-spacing {
+        padding: 10px 10px;
+        text-align: center;
+        border: 1px solid #000066;
+        height: 60px;
+    }
+
+  /* Top Navigation Padding */
+  div.container.clear {
+    padding-top: 6px;    /* lg */
+    padding-bottom: 7px; /* lg */
+  }
+
+  /* push the carousel below main web site navigation */
+  .wrapper {
+    margin-top: 70px; /* lg */
+
+  }
+
+}  /* end lg >= 1200  */
+
+
+/*
+  Make an image width 100% of parent div, but not bigger than it's own width
+  http://stackoverflow.com/questions/3463664/make-an-image-width-100-of-parent-div-but-not-bigger-than-its-own-width
+   */
+
+#inner .item img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+#msgDiv {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.red {
+    background-color: #4d0000;
+    color: #fff;
+}
+
+.green {
+    background-color: #004d00;
+    color: #fff;
+}
+
+.blue {
+    background-color: #00004d;
+    color: #fff;
+}
+
+.purple {
+    background-color: #4d004d;
+    color: #fff;
+}
+
+.modal-header {
+    text-align: center;
+    font-weight: bold;
+}
+
+.modal-footer {
+    text-align: left;
+}
+
+#accordian .panel .panel-heading {
+    text-align: left;
+}
+
+#accordian .panel .panel-title {
+    font-size: 1.125em;
+}
+
+
+/*
+#accordian .panel-primary .panel-heading .panel-title{
+    background-color: #000;
+  }
+*/
+
+#accordian .panel-primary>.panel-heading {
+    background-color: #c6d9ec;
+    background-image: none;
+    color: #2d5986;
+}
+
+#r2 .panel-primary>.panel-heading {
+    background-color: #c6d9ec;
+    background-image: none;
+    color: #2d5986;
+}
+
+h2.panel-title {
+    font-size: 1.em;
+    font-weight: bold;
+}
+
+#accordian {
+    margin-top: 20px;
+}
+
+/* Top Navigation background */
+div.container.clear {
+
+  background: rgb(198,217,236);
+  background: linear-gradient(to bottom,  rgba(198,217,236,1) 95%,rgba(121,166,210,1) 100%,rgba(177,200,239,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6d9ec', endColorstr='#b1c8ef',GradientType=0 );
+
+  margin-top: 2px;
+  margin-bottom: 1px;
+
+}
+
+/* Add rounded corners to menu items */
+#collapsable-menu ul li a {
+  border-radius: 5px;
+}
+
+
+/* remove coloring and border from main site navigation */
+#cnb {
+  background-color: #fff;
+  background-image: none;
+  border: none;
+  border-image: none;
+  border-image-width: 0;
+  -webkit-box-sizing: none;
+  box-shadow: none;
+
+}
+
+
+/* Make the site branding stand out a bit */
+#brand.navbar-brand {
+  color: #002b80;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+/* padded to line up the special interest check boxes */
+#cb3 {
+  padding-right: 2px;
+}
+
+/* add space beween email and Select Interests label */
+/* remove space between select interest label and check boxes */
+div#si.form-group div h5 {
+  margin-top: 22px;
+  margin-bottom: 3px;
+}
+
+
+/* add a bit of space between special interest and gender */
+#gndr {
+  margin-top: 20px;
+}
+
+/* Spacing between Gender label and radio checkboxes */
+#gndr div h5 {
+  margin-bottom: 3px;
+}
+
+/* footer styles */
+footer p{
+  padding: 3px;
+  text-align: center;
+}
+
+/* add a element to accordian because accordian
+did not work on mobile devices these styles keep
+the original appearance of the original sytles without
+the a element*/
+#accordian div.panel-primary div h3 a,
+#accordian div.panel-danger div h3 a,
+#accordian div.panel-warning div h3 a,
+#accordian div.panel-success div h3 a {
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  background-image: none;
+  cursor: default;
+}

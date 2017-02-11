@@ -1,0 +1,1303 @@
+.btn-danger,.btn-default,.btn-info,.btn-primary,.btn-success,.btn-warning{text-shadow:0 -1px 0 rgba(0,0,0,.2);box-shadow:inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075)}.btn-danger.active,.btn-danger:active,.btn-default.active,.btn-default:active,.btn-info.active,.btn-info:active,.btn-primary.active,.btn-primary:active,.btn-success.active,.btn-success:active,.btn-warning.active,.btn-warning:active{box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}.btn-danger.disabled,.btn-danger[disabled],.btn-default.disabled,.btn-default[disabled],.btn-info.disabled,.btn-info[disabled],.btn-primary.disabled,.btn-primary[disabled],.btn-success.disabled,.btn-success[disabled],.btn-warning.disabled,.btn-warning[disabled],fieldset[disabled] .btn-danger,fieldset[disabled] .btn-default,fieldset[disabled] .btn-info,fieldset[disabled] .btn-primary,fieldset[disabled] .btn-success,fieldset[disabled] .btn-warning{box-shadow:none}.btn-danger .badge,.btn-default .badge,.btn-info .badge,.btn-primary .badge,.btn-success .badge,.btn-warning .badge{text-shadow:none}.btn.active,.btn:active{background-image:none}.btn-default{text-shadow:0 1px 0 #fff;background-image:linear-gradient(to bottom,#fff 0,#e0e0e0 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe0e0e0', GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);background-repeat:repeat-x;border-color:#dbdbdb;border-color:#ccc}.btn-default:focus,.btn-default:hover{background-color:#e0e0e0;background-position:0 -15px}.btn-default.active,.btn-default:active{background-color:#e0e0e0;border-color:#dbdbdb}.btn-default.disabled,.btn-default.disabled.active,.btn-default.disabled.focus,.btn-default.disabled:active,.btn-default.disabled:focus,.btn-default.disabled:hover,.btn-default[disabled],.btn-default[disabled].active,.btn-default[disabled].focus,.btn-default[disabled]:active,.btn-default[disabled]:focus,.btn-default[disabled]:hover,fieldset[disabled] .btn-default,fieldset[disabled] .btn-default.active,fieldset[disabled] .btn-default.focus,fieldset[disabled] .btn-default:active,fieldset[disabled] .btn-default:focus,fieldset[disabled] .btn-default:hover{background-color:#e0e0e0;background-image:none}.btn-primary{background-image:linear-gradient(to bottom,#337ab7 0,#265a88 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff265a88', GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);background-repeat:repeat-x;border-color:#245580}.btn-primary:focus,.btn-primary:hover{background-color:#265a88;background-position:0 -15px}.btn-primary.active,.btn-primary:active{background-color:#265a88;border-color:#245580}.btn-primary.disabled,.btn-primary.disabled.active,.btn-primary.disabled.focus,.btn-primary.disabled:active,.btn-primary.disabled:focus,.btn-primary.disabled:hover,.btn-primary[disabled],.btn-primary[disabled].active,.btn-primary[disabled].focus,.btn-primary[disabled]:active,.btn-primary[disabled]:focus,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary,fieldset[disabled] .btn-primary.active,fieldset[disabled] .btn-primary.focus,fieldset[disabled] .btn-primary:active,fieldset[disabled] .btn-primary:focus,fieldset[disabled] .btn-primary:hover{background-color:#265a88;background-image:none}.btn-success{background-image:linear-gradient(to bottom,#5cb85c 0,#419641 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff419641', GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);background-repeat:repeat-x;border-color:#3e8f3e}.btn-success:focus,.btn-success:hover{background-color:#419641;background-position:0 -15px}.btn-success.active,.btn-success:active{background-color:#419641;border-color:#3e8f3e}.btn-success.disabled,.btn-success.disabled.active,.btn-success.disabled.focus,.btn-success.disabled:active,.btn-success.disabled:focus,.btn-success.disabled:hover,.btn-success[disabled],.btn-success[disabled].active,.btn-success[disabled].focus,.btn-success[disabled]:active,.btn-success[disabled]:focus,.btn-success[disabled]:hover,fieldset[disabled] .btn-success,fieldset[disabled] .btn-success.active,fieldset[disabled] .btn-success.focus,fieldset[disabled] .btn-success:active,fieldset[disabled] .btn-success:focus,fieldset[disabled] .btn-success:hover{background-color:#419641;background-image:none}.btn-info{background-image:linear-gradient(to bottom,#5bc0de 0,#2aabd2 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2aabd2', GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);background-repeat:repeat-x;border-color:#28a4c9}.btn-info:focus,.btn-info:hover{background-color:#2aabd2;background-position:0 -15px}.btn-info.active,.btn-info:active{background-color:#2aabd2;border-color:#28a4c9}.btn-info.disabled,.btn-info.disabled.active,.btn-info.disabled.focus,.btn-info.disabled:active,.btn-info.disabled:focus,.btn-info.disabled:hover,.btn-info[disabled],.btn-info[disabled].active,.btn-info[disabled].focus,.btn-info[disabled]:active,.btn-info[disabled]:focus,.btn-info[disabled]:hover,fieldset[disabled] .btn-info,fieldset[disabled] .btn-info.active,fieldset[disabled] .btn-info.focus,fieldset[disabled] .btn-info:active,fieldset[disabled] .btn-info:focus,fieldset[disabled] .btn-info:hover{background-color:#2aabd2;background-image:none}.btn-warning{background-image:linear-gradient(to bottom,#f0ad4e 0,#eb9316 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e', endColorstr='#ffeb9316', GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);background-repeat:repeat-x;border-color:#e38d13}.btn-warning:focus,.btn-warning:hover{background-color:#eb9316;background-position:0 -15px}.btn-warning.active,.btn-warning:active{background-color:#eb9316;border-color:#e38d13}.btn-warning.disabled,.btn-warning.disabled.active,.btn-warning.disabled.focus,.btn-warning.disabled:active,.btn-warning.disabled:focus,.btn-warning.disabled:hover,.btn-warning[disabled],.btn-warning[disabled].active,.btn-warning[disabled].focus,.btn-warning[disabled]:active,.btn-warning[disabled]:focus,.btn-warning[disabled]:hover,fieldset[disabled] .btn-warning,fieldset[disabled] .btn-warning.active,fieldset[disabled] .btn-warning.focus,fieldset[disabled] .btn-warning:active,fieldset[disabled] .btn-warning:focus,fieldset[disabled] .btn-warning:hover{background-color:#eb9316;background-image:none}.btn-danger{background-image:linear-gradient(to bottom,#d9534f 0,#c12e2a 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc12e2a', GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);background-repeat:repeat-x;border-color:#b92c28}.btn-danger:focus,.btn-danger:hover{background-color:#c12e2a;background-position:0 -15px}.btn-danger.active,.btn-danger:active{background-color:#c12e2a;border-color:#b92c28}.btn-danger.disabled,.btn-danger.disabled.active,.btn-danger.disabled.focus,.btn-danger.disabled:active,.btn-danger.disabled:focus,.btn-danger.disabled:hover,.btn-danger[disabled],.btn-danger[disabled].active,.btn-danger[disabled].focus,.btn-danger[disabled]:active,.btn-danger[disabled]:focus,.btn-danger[disabled]:hover,fieldset[disabled] .btn-danger,fieldset[disabled] .btn-danger.active,fieldset[disabled] .btn-danger.focus,fieldset[disabled] .btn-danger:active,fieldset[disabled] .btn-danger:focus,fieldset[disabled] .btn-danger:hover{background-color:#c12e2a;background-image:none}.img-thumbnail,.thumbnail{box-shadow:0 1px 2px rgba(0,0,0,.075)}.dropdown-menu>li>a:focus,.dropdown-menu>li>a:hover{background-color:#e8e8e8;background-image:linear-gradient(to bottom,#f5f5f5 0,#e8e8e8 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);background-repeat:repeat-x}.dropdown-menu>.active>a,.dropdown-menu>.active>a:focus,.dropdown-menu>.active>a:hover{background-color:#2e6da4;background-image:linear-gradient(to bottom,#337ab7 0,#2e6da4 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff2e6da4', GradientType=0);background-repeat:repeat-x}.navbar-default{background-image:linear-gradient(to bottom,#fff 0,#f8f8f8 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);background-repeat:repeat-x;border-radius:4px;box-shadow:inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.075)}.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.open>a{background-image:linear-gradient(to bottom,#dbdbdb 0,#e2e2e2 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdbdbdb', endColorstr='#ffe2e2e2', GradientType=0);background-repeat:repeat-x;box-shadow:inset 0 3px 9px rgba(0,0,0,.075)}.navbar-brand,.navbar-nav>li>a{text-shadow:0 1px 0 rgba(255,255,255,.25)}.navbar-inverse{background-image:linear-gradient(to bottom,#3c3c3c 0,#222 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);background-repeat:repeat-x;border-radius:4px}.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a{background-image:linear-gradient(to bottom,#080808 0,#0f0f0f 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff080808', endColorstr='#ff0f0f0f', GradientType=0);background-repeat:repeat-x;box-shadow:inset 0 3px 9px rgba(0,0,0,.25)}.navbar-inverse .navbar-brand,.navbar-inverse .navbar-nav>li>a{text-shadow:0 -1px 0 rgba(0,0,0,.25)}.navbar-fixed-bottom,.navbar-fixed-top,.navbar-static-top{border-radius:0}@media (max-width:767px){.navbar .navbar-nav .open .dropdown-menu>.active>a,.navbar .navbar-nav .open .dropdown-menu>.active>a:focus,.navbar .navbar-nav .open .dropdown-menu>.active>a:hover{color:#fff;background-image:linear-gradient(to bottom,#337ab7 0,#2e6da4 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff2e6da4', GradientType=0);background-repeat:repeat-x}}.alert{text-shadow:0 1px 0 rgba(255,255,255,.2);box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 1px 2px rgba(0,0,0,.05)}.alert-success{background-image:linear-gradient(to bottom,#dff0d8 0,#c8e5bc 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdff0d8', endColorstr='#ffc8e5bc', GradientType=0);background-repeat:repeat-x;border-color:#b2dba1}.alert-info{background-image:linear-gradient(to bottom,#d9edf7 0,#b9def0 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9edf7', endColorstr='#ffb9def0', GradientType=0);background-repeat:repeat-x;border-color:#9acfea}.alert-warning{background-image:linear-gradient(to bottom,#fcf8e3 0,#f8efc0 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffcf8e3', endColorstr='#fff8efc0', GradientType=0);background-repeat:repeat-x;border-color:#f5e79e}.alert-danger{background-image:linear-gradient(to bottom,#f2dede 0,#e7c3c3 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2dede', endColorstr='#ffe7c3c3', GradientType=0);background-repeat:repeat-x;border-color:#dca7a7}.progress{background-image:linear-gradient(to bottom,#ebebeb 0,#f5f5f5 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffebebeb', endColorstr='#fff5f5f5', GradientType=0);background-repeat:repeat-x}.progress-bar{background-image:linear-gradient(to bottom,#337ab7 0,#286090 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff286090', GradientType=0);background-repeat:repeat-x}.progress-bar-success{background-image:linear-gradient(to bottom,#5cb85c 0,#449d44 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff449d44', GradientType=0);background-repeat:repeat-x}.progress-bar-info{background-image:linear-gradient(to bottom,#5bc0de 0,#31b0d5 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff31b0d5', GradientType=0);background-repeat:repeat-x}.progress-bar-warning{background-image:linear-gradient(to bottom,#f0ad4e 0,#ec971f 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e', endColorstr='#ffec971f', GradientType=0);background-repeat:repeat-x}.progress-bar-danger{background-image:linear-gradient(to bottom,#d9534f 0,#c9302c 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc9302c', GradientType=0);background-repeat:repeat-x}.progress-bar-striped{background-image:linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent)}.list-group{border-radius:4px;box-shadow:0 1px 2px rgba(0,0,0,.075)}.list-group-item.active,.list-group-item.active:focus,.list-group-item.active:hover{text-shadow:0 -1px 0 #286090;background-image:linear-gradient(to bottom,#337ab7 0,#2b669a 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff2b669a', GradientType=0);background-repeat:repeat-x;border-color:#2b669a}.list-group-item.active .badge,.list-group-item.active:focus .badge,.list-group-item.active:hover .badge{text-shadow:none}.panel{box-shadow:0 1px 2px rgba(0,0,0,.05)}.panel-default>.panel-heading{background-image:linear-gradient(to bottom,#f5f5f5 0,#e8e8e8 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);background-repeat:repeat-x}.panel-primary>.panel-heading{background-image:linear-gradient(to bottom,#337ab7 0,#2e6da4 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff2e6da4', GradientType=0);background-repeat:repeat-x}.panel-success>.panel-heading{background-image:linear-gradient(to bottom,#dff0d8 0,#d0e9c6 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdff0d8', endColorstr='#ffd0e9c6', GradientType=0);background-repeat:repeat-x}.panel-info>.panel-heading{background-image:linear-gradient(to bottom,#d9edf7 0,#c4e3f3 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9edf7', endColorstr='#ffc4e3f3', GradientType=0);background-repeat:repeat-x}.panel-warning>.panel-heading{background-image:linear-gradient(to bottom,#fcf8e3 0,#faf2cc 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffcf8e3', endColorstr='#fffaf2cc', GradientType=0);background-repeat:repeat-x}.panel-danger>.panel-heading{background-image:linear-gradient(to bottom,#f2dede 0,#ebcccc 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2dede', endColorstr='#ffebcccc', GradientType=0);background-repeat:repeat-x}.well{background-image:linear-gradient(to bottom,#e8e8e8 0,#f5f5f5 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe8e8e8', endColorstr='#fff5f5f5', GradientType=0);background-repeat:repeat-x;border-color:#dcdcdc;box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 1px 0 rgba(255,255,255,.1)}
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+
+input[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  box-sizing: content-box; /* 2 */
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+/*  To look good on a majority of phones
+the website should look good at a width of 350 px. */
+
+.wrapper {
+    max-width: 1200px;
+    min-width: 350px;
+    margin: 0 auto;
+}
+
+#msg {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.container-fluid, .container {
+    border-radius: 5px;
+    background-color: #e6eeff;
+    border: 1px solid #6696ff;
+}
+
+.row {
+    background-color: #eff5f5;
+    border: 1px solid #a1c4c4;
+    border-radius: 5px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+
+/*  xs < 768  */
+/*  if the media type is screen AND
+    the view port is 768px or less then use these settings */
+@media screen and (min-width: 1px) {
+    /*  red 80%   */
+    /*  if the view port is less than 768px use this color   */
+    .content {
+        background-color: #ffcccc;
+        color: #000;
+        border: 2px solid #000;
+        border-radius: 5px;
+    }
+    /*  blue 80%   */
+    /*  if the view port is less than 768px use this color   */
+    .sidebar {
+        background-color: #9999ff;
+        color: #000;
+        border: 2px solid #000;
+        border-radius: 5px;
+    }
+    /*  green 80%   */
+    /*  if the view port is less than 768px use this color   */
+    .thumb {
+        background-color: #99ff99;
+        color: #000;
+        border: 2px solid #000;
+        border-radius: 5px;
+    }
+    /*  purple 80%   */
+    /*  if the view port is less than 768px use this color   */
+    .panel {
+        background-color: #cc99ff;
+        /* 80% */
+        color: #000;
+        border-radius: 5px;
+        margin-top: 4px;
+    }
+    .panel-heading {
+        text-align: center;
+        font-size: 1em;
+    }
+    /* color matching panel borders for sizes xs and sm */
+    /* Hobbit panel */
+    #r2>div:nth-child(2)>div.panel-primary {
+        border: 3px solid #336699;
+        /* 40% of panel-heading background */
+    }
+    /* Elf panel */
+    #r2>div:nth-child(3)>div.panel-danger {
+        border: 3px solid #a44141;
+        /* 45% of panel-heading background */
+    }
+    /* Wizard panel */
+    #r2>div:nth-child(4)>div.panel-warning {
+        border: 3px solid #e7c418;
+        /* 50% of panel-heading background */
+    }
+    /* Dwarf panel */
+    #r2>div:nth-child(5)>div.panel-success {
+        border: 3px solid #5da540;
+        /* 45% of panel-heading background */
+    }
+    /* color matching accordian borders for sizes xs and sm */
+    #accordian>div.panel.panel-primary {
+        border: 3px solid #336699;
+        /* 40% of panel-heading background */
+    }
+    #accordian>div.panel.panel-danger {
+        border: 3px solid #a44141;
+        /* 45% of panel-heading background */
+    }
+    #accordian>div.panel.panel-warning {
+        border: 3px solid #e7c418;
+        /* 50% of panel-heading background */
+    }
+    #accordian>div.panel.panel-success {
+        border: 3px solid #5da540;
+        /* 45% of panel-heading background */
+    }
+    /*  Content Container
+    Move content container below menu.
+    select the 2nd div element of it's parent.
+    move it below the menu. This needs to be applied
+    to small, medium, and large media breaks  */
+    #container2 {
+        margin-top: 53px;
+    }
+    #carousel {
+        margin-top: 53px;
+    }
+    /* Inbox Button in Nav Menu */
+    #collapsable-menu button:nth-child(2) {
+        margin-right: 3px;
+        margin-top: 8px;
+        float: right;
+        /* color: #d9534f; danger red */
+        color: #777;
+        padding-top: 7px;
+    }
+    #collapsable-menu button:nth-child(2) span {
+        color: #fff;
+        text-shadow: none;
+        margin: 4px;
+        border-radius: 5px;
+    }
+    /* Notifications Button in Nav Menu */
+    #collapsable-menu button:nth-child(3) {
+        margin-right: 3px;
+        margin-top: 8px;
+        /* color: #d9534f;  danger red */
+        color: #777;
+        float: right;
+        border-radius: 5px;
+        padding-top: 7px;
+    }
+    #collapsable-menu button:nth-child(3) span {
+        background-color: #d9534f;
+    }
+    .clear {
+        clear: both;
+    }
+    /* Center Brand */
+    .navbar-header {
+        position: relative;
+    }
+    .navbar-header button {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #brand {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    #c1 {
+        width: 100%;
+        height: 100%;
+    }
+    #c2 {
+        width: 100%;
+        height: 100%;
+    }
+    #c3 {
+        width: 100%;
+        height: 100%;
+    }
+    #c4 {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Top Navigation Padding */
+    div.container.clear {
+      padding-top: 5px;  /* xs */
+      padding-bottom: 5px; /* xs */
+    }
+
+    /* push the carousel below main web site navigation */
+    .wrapper {
+      margin-top: 65px; /* xs */
+    }
+
+}  /*  end xs < 768  */
+
+
+/*  sm >= 768  */
+/*  if the media type is screen AND
+    the view port is 768px and wider */
+@media screen and (min-width: 768px) {
+    /*  red (content) 40%   */
+    .content {
+        background-color: #c00;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    /*  blue (sidebar) 40%   */
+    .sidebar {
+        background-color: #0000cc;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    /*  green (thumb) 40%   */
+    .thumb {
+        background-color: #00cc00;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    /*  purple (panel) 40%   */
+    .panel {
+        background-color: #6600cc;
+        color: #fff;
+        border: 2px solid #fff;
+        /* 10% */
+        border-radius: 5px;
+    }
+    /*  Target content container
+    select the 2nd div element of it's parent.
+    move it below the menu. This needs to be applied
+    to small, medium, and large media breaks*/
+    #container2 {
+        margin-top: 53px;
+    }
+    /* Register Button in Nav Menu */
+    #collapsable-menu button:nth-child(2) {
+        margin-right: 2px;
+        margin-left: 10px;
+        margin-top: 8px;
+        color: #777;
+    }
+    /* Login Button */
+    #collapsable-menu button:nth-child(3) {
+        color: #777;
+    }
+    #brand, .navbar-header {
+        Position: static;
+    }
+    #brand {
+        width: 225px;
+        display: block;
+        text-align: left;
+    }
+
+    /* Top Navigation Padding */
+  div.container.clear {
+    padding-top: 6px;  /* sm */
+    padding-bottom: 6px;  /* sm */
+  }
+
+  /* push the carousel below main web site navigation */
+  .wrapper {
+    margin-top: 68px; /* sm */
+  }
+
+}  /* end sm >= 768  */
+
+
+/*  md >= 992  */
+/*  if the media type is screen AND
+the view port is 992px and wider */
+@media screen and (min-width: 992px) {
+    /*  red (content) 30%   */
+    .content {
+        background-color: #990000;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    /*  blue (sidebar) 30%   */
+    .sidebar {
+        background-color: #000099;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    /*  green (thumb) 30%   */
+    .thumb {
+        background-color: #009900;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    /*  purple (panel) 30%   */
+    .panel {
+        background-color: #4d0099;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    /*  Target content container
+    select the 2nd div element of it's parent.
+    move it below the menu. This needs to be applied
+    to small, medium, and large media breaks*/
+    #container2 {
+        margin-top: 53px;
+    }
+    /* white panel borders for med and large sizes */
+    /* Hobbit panel */
+    #r2>div:nth-child(2)>div.panel-primary {
+        border: 2px solid #fff;
+    }
+    /* Elf panel */
+    #r2>div:nth-child(3)>div.panel-danger {
+        border: 2px solid #fff;
+    }
+    /* Wizard panel */
+    #r2>div:nth-child(4)>div.panel-warning {
+        border: 2px solid #fff;
+    }
+    /* Dwarf panel */
+    #r2>div:nth-child(5)>div.panel-success {
+        border: 2px solid #fff;
+    }
+    /* color matching accordian borders for sizes xs and sm */
+    #accordian>div.panel.panel-primary {
+        border: 2px solid #fff;
+    }
+    #accordian>div.panel.panel-danger {
+        border: 2px solid #fff;
+    }
+    #accordian>div.panel.panel-warning {
+        border: 2px solid #fff;
+    }
+    #accordian>div.panel.panel-success {
+        border: 2px solid #fff;
+    }
+
+    /* Top Navigation Padding */
+  div.container.clear {
+    padding-top: 6px;    /* md */
+    padding-bottom: 6px; /* md */
+  }
+
+  /* push the carousel below main web site navigation */
+  .wrapper {
+    margin-top: 68px; /* md */
+  }
+
+}  /* end md >= 992  */
+
+
+/*  lg >= 1200  */
+/*  if the media type is screen AND
+the view port is 1200px and wider */
+@media screen and (min-width: 1200px) {
+    /*  red (content) 20%   */
+    .content {
+        background-color: #660000;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    /*  blue (sidebar) 20%   */
+    .sidebar {
+        background-color: #000066;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    /*  green (thumb) 20%   */
+    .thumb {
+        background-color: #006600;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    /*  purple (panel) 20%   */
+    .panel {
+        background-color: #330066;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
+    /*  Target content container
+    select the 2nd div element of it's parent.
+    move it below the menu. This needs to be applied
+    to small, medium, and large media breaks*/
+    #container2 {
+        margin-top: 53px;
+    }
+    .thumb-spacing {
+        padding: 10px 10px;
+        text-align: center;
+        border: 1px solid #006600;
+        height: 60px;
+    }
+    .content-spacing {
+        padding: 0;
+        margin: 0;
+    }
+    .sidebar-spacing {
+        padding: 10px 10px;
+        text-align: center;
+        border: 1px solid #000066;
+        height: 60px;
+    }
+
+  /* Top Navigation Padding */
+  div.container.clear {
+    padding-top: 6px;    /* lg */
+    padding-bottom: 7px; /* lg */
+  }
+
+  /* push the carousel below main web site navigation */
+  .wrapper {
+    margin-top: 70px; /* lg */
+
+  }
+
+}  /* end lg >= 1200  */
+
+
+/*
+  Make an image width 100% of parent div, but not bigger than it's own width
+  http://stackoverflow.com/questions/3463664/make-an-image-width-100-of-parent-div-but-not-bigger-than-its-own-width
+   */
+
+#inner .item img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+#msgDiv {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.red {
+    background-color: #4d0000;
+    color: #fff;
+}
+
+.green {
+    background-color: #004d00;
+    color: #fff;
+}
+
+.blue {
+    background-color: #00004d;
+    color: #fff;
+}
+
+.purple {
+    background-color: #4d004d;
+    color: #fff;
+}
+
+.modal-header {
+    text-align: center;
+    font-weight: bold;
+}
+
+.modal-footer {
+    text-align: left;
+}
+
+#accordian .panel .panel-heading {
+    text-align: left;
+}
+
+#accordian .panel .panel-title {
+    font-size: 1.125em;
+}
+
+
+/*
+#accordian .panel-primary .panel-heading .panel-title{
+    background-color: #000;
+  }
+*/
+
+#accordian .panel-primary>.panel-heading {
+    background-color: #c6d9ec;
+    background-image: none;
+    color: #2d5986;
+}
+
+#r2 .panel-primary>.panel-heading {
+    background-color: #c6d9ec;
+    background-image: none;
+    color: #2d5986;
+}
+
+h2.panel-title {
+    font-size: 1.em;
+    font-weight: bold;
+}
+
+#accordian {
+    margin-top: 20px;
+}
+
+/* Top Navigation background */
+div.container.clear {
+
+  background: rgb(198,217,236);
+  background: linear-gradient(to bottom,  rgba(198,217,236,1) 95%,rgba(121,166,210,1) 100%,rgba(177,200,239,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6d9ec', endColorstr='#b1c8ef',GradientType=0 );
+
+  margin-top: 2px;
+  margin-bottom: 1px;
+
+}
+
+/* Add rounded corners to menu items */
+#collapsable-menu ul li a {
+  border-radius: 5px;
+}
+
+
+/* remove coloring and border from main site navigation */
+#cnb {
+  background-color: #fff;
+  background-image: none;
+  border: none;
+  border-image: none;
+  border-image-width: 0;
+  -webkit-box-sizing: none;
+  box-shadow: none;
+
+}
+
+
+/* Make the site branding stand out a bit */
+#brand.navbar-brand {
+  color: #002b80;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+/* padded to line up the special interest check boxes */
+#cb3 {
+  padding-right: 2px;
+}
+
+/* add space beween email and Select Interests label */
+/* remove space between select interest label and check boxes */
+div#si.form-group div h5 {
+  margin-top: 22px;
+  margin-bottom: 3px;
+}
+
+
+/* add a bit of space between special interest and gender */
+#gndr {
+  margin-top: 20px;
+}
+
+/* Spacing between Gender label and radio checkboxes */
+#gndr div h5 {
+  margin-bottom: 3px;
+}
+
+/* footer styles */
+footer p{
+  padding: 3px;
+  text-align: center;
+}
+
+/* add a element to accordian because accordian
+did not work on mobile devices these styles keep
+the original appearance of the original sytles without
+the a element*/
+#accordian div.panel-primary div h3 a,
+#accordian div.panel-danger div h3 a,
+#accordian div.panel-warning div h3 a,
+#accordian div.panel-success div h3 a {
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  background-image: none;
+  cursor: default;
+}
+
+
+/* put site specific styles here */
